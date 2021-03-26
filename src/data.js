@@ -69,9 +69,13 @@ export const skillData = [
  ************************************************************** */
 // List the repo names you want to include (they will be sorted alphabetically), leave the array empty if you want to include everything
 export const filteredProjects = [
-  "Background-Generator",
-  "github-react-portfolio-template",
-  "notepad",
+  "burgerLogger",
+  "funTimePlanner",
+  "horiseonRefactorHomework",
+  "workoutTracker",
+  "employeeTracker", 
+  "noteTaker", 
+  
 ];
 
 // List the card images you want to include in the same order as the repos above (alphabetically)
