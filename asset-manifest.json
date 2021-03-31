@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/your-app-name/static/css/main.d485f152.chunk.css",
+    "main.js": "/your-app-name/static/js/main.c5586ed9.chunk.js",
+    "main.js.map": "/your-app-name/static/js/main.c5586ed9.chunk.js.map",
+    "runtime-main.js": "/your-app-name/static/js/runtime-main.b95d419b.js",
+    "runtime-main.js.map": "/your-app-name/static/js/runtime-main.b95d419b.js.map",
+    "static/js/2.e2b00665.chunk.js": "/your-app-name/static/js/2.e2b00665.chunk.js",
+    "static/js/2.e2b00665.chunk.js.map": "/your-app-name/static/js/2.e2b00665.chunk.js.map",
+    "index.html": "/your-app-name/index.html",
+    "static/css/main.d485f152.chunk.css.map": "/your-app-name/static/css/main.d485f152.chunk.css.map",
+    "static/js/2.e2b00665.chunk.js.LICENSE.txt": "/your-app-name/static/js/2.e2b00665.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/your-app-name/static/media/PermanentMarker-Regular.109a10dc.ttf",
+    "static/media/colors.1aa9d066.svg": "/your-app-name/static/media/colors.1aa9d066.svg",
+    "static/media/logo.6ce24c58.svg": "/your-app-name/static/media/logo.6ce24c58.svg",
+    "static/media/notepad.00bfae70.svg": "/your-app-name/static/media/notepad.00bfae70.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b95d419b.js",
+    "static/js/2.e2b00665.chunk.js",
+    "static/css/main.d485f152.chunk.css",
+    "static/js/main.c5586ed9.chunk.js"
+  ]
+}
