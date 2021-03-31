@@ -12,7 +12,7 @@ const Footer = ({ githubUrl, link, twitter }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Michael Huber
+          Dante James
         </a>
       </p>
     </footer>

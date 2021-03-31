@@ -1,170 +1,102 @@
-[![GitHub Repo stars](https://img.shields.io/github/stars/mshuber1981/github-react-portfolio-template?color=%2361dbfb&style=for-the-badge&logo=github)](https://github.com/mshuber1981/github-react-portfolio-template/stargazers/)
+# Unit 20 React Homework: React Portfolio
 
-# GitHub React Portfolio Template
+Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-A fast, responsive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
+## Requirements
 
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* Updated portfolio featuring 6 total projects
 
-![Page Speed](/images/speed.png)
+* Use React
 
-### <a href="https://mshuber1981.github.io/github-react-portfolio-template/">LIVE DEMO</a>
+* A `Header` component that appears on multiple pages
 
-![Project Preview](/images/preview.png)
+* A single `Project` component that will be used multiple times on a single page 
 
-## Getting Started
+* Navigation with React Router, dynamic rendering, or another third part router
 
-1. Clone/download
-1. Install the dependencies
+* A `Footer` component that appears on multiple pages
 
-   - ```bash
-     npm i
-     ```
+* Update GitHub profile with pinned repositories featuring those same projects
 
-1. Navigate to the src directory and open data.js
-1. Add your GitHub username (data.js line 19)
+* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
-   - ```javascript
-     /* START HERE - add your GitHub username below
-      ************************************************************** */
-     export const githubUsername = "Your GitHub username here";
-     ```
+* **Important**: Be sure to push your codebase to GitHub and **NOT** your built and deployed code. Ensure this happens by following the above instructions and using the `gh-pages` branch to host the deployed application's code.
 
-1. Start the development server to view the results
+## Grading
 
-   - ```bash
-     npm start
-     ```
+| Requirement    | Weight |
+| -------------- | ------ |
+| Portfolio      | 90%    |
+| GitHub Profile | 10%    |
 
-## Updating the Skills section
 
-![Skills Preview](/images/skills.png)
+## Instructions
 
-1. Import your desired skill icons (data.js line 1)
+* [Updated Portfolio](#updated-portfolio)
 
-   - ```javascript
-     // https://react-icons.github.io/
-     import {
-       FaHtml5,
-       FaCss3Alt,
-       FaSass,
-       FaBootstrap,
-       FaReact,
-       FaNpm,
-       FaGitAlt,
-       FaGithubSquare,
-     } from "react-icons/fa";
-     import { SiJavascript } from "react-icons/si";
-     ```
+* [Design](#design)
 
-1. Follow the instructions to update the skillData array (data.js line 23)
+* [React](#react)
 
-   - ```javascript
-     /* Skills
-     ************************************************************** */
-     // Add or remove skills in the SAME format below
-     // There must be one icon imported above per skill below and 3 skills per row
-     export const skillData = [
-       {
-         id: 1,
-         skill: <FaHtml5 className="display-4" />,
-         name: "HTML5",
-       },
-     ```
+* [Updated LinkedIn Profile](#updated-linkedin-profile)
 
-## Updating the Projects section
+### Updated Portfolio
 
-![Projects Preview](/images/projects.png)
+Your updated site should still have all of the content it previously had:
 
-1. Follow the instructions to update the filteredProjects array (data.js line 83)
+* Your name
 
-   - ```javascript
-     /* Projects
-      ************************************************************** */
-     // List the repo names you want to include (they will be sorted alphabetically)
-     // Leave the array empty if you want to include everything
-     export const filteredProjects = [
-       "Background-Generator",
-       "github-react-portfolio-template",
-       "notepad",
-     ];
-     ```
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-1. Import the projects images you want to use (data.js line 14), skip steps 2-3 if you want to use the default image
+* A link to a PDF of your resume with updated projects
 
-   - ```javascript
-     // Projects Images
-     // Add your images to the /assets/images directory and import below
-     import colors from "./assets/images/colors.svg";
-     import robot from "./assets/images/robot.svg";
-     import notepad from "./assets/images/notepad.svg";
-     ```
+* A list of projects. For each project, make sure you have the following:
 
-1. Follow the instructions to update the projectData array (data.js line 92)
+  * Project title
 
-   - ```javascript
-     // List the card images you want to include in the same order as the repos above
-     // There MUST be one image per repo above or the defualt image will be applied
-     export const projectData = [
-       {
-         image: colors,
-       },
-       {
-         image: notepad,
-       },
-       {
-         image: robot,
-       },
-     ];
-     ```
+  * Link to the deployed version
 
-## Updating the Contact section
+  * Link to the GitHub repository
 
-![Contact Preview](/images/contact.png)
+  * GIF or screenshot of the deployed application
 
-1. Follow the instructions to update the contactInfo object (data.js line 109)
 
-   - ```javascript
-     /* Contact Info
-      ************************************************************** */
-     // Share the contact info you are comfortable with (no dashes for phone numbers)
-     // If no info provided a button with a link to mailchimp will be rendered
-     // Update the link if you want to use this option
-     export const contactInfo = {
-       email: "",
-       phone: "",
-       mailChimp: "https://www.mailchimp.com/",
-     };
-     ```
+#### Design
 
-## Deploy
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
-A helpful guide for Create React App deployments with GitHub Pages can be found <a href="https://create-react-app.dev/docs/deployment#github-pages">here</a>.
+* Mobile-first design
 
-1. Update the homepage value in package.json (line 3)
+* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
 
-   - ```javascript
-     "homepage": "https://yourusername.github.io/your-app/",
-     ```
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-1. Run the deployment command
+* If you want to go above and beyond, try using animations and react component libraries. Note 
+that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
-   - ```bash
-     npm run deploy
-     ```
+### React
 
-## Donate
+Additionally, this new portfolio should be created using React.
 
-Was this helpful? Feeling generous? Please consider donating below.
+At a minimum, your portfolio should include the following:
 
-My [Coinbase](https://www.coinbase.com/) Bitcoin wallet address:
+* A `Header` component that appears on multiple pages
 
-![Bitcoin](/images/bitcoin.png)
+* A single `Project` component that will be used multiple times on a single page 
 
-[Back to top ⬆](#github-react-portfolio-template)
+* Navigation with React Router, dynamic rendering, or another third part router
 
-## License
+* A `Footer` component that appears on multiple pages
 
-[MIT](https://choosealicense.com/licenses/mit/)
+* **Important**: If you use React Router, you will **NOT** be able to use the `<BrowserRouter>` component on GitHub Pages. Read the [GitHub note on client-side routing](https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing) and the [React Router documentation on HashRouter](https://reactrouter.com/web/api/HashRouter) for more information.
+
+
+### Updated LinkedIn Profile 
+
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
+- - -
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
